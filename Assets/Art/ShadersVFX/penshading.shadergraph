@@ -17,6 +17,9 @@
         },
         {
             "m_Id": "f862b282158e4cfb9f6fe5e14b139289"
+        },
+        {
+            "m_Id": "5ff2cdca45b341f8b52e08683ca24120"
         }
     ],
     "m_Keywords": [],
@@ -173,6 +176,9 @@
         },
         {
             "m_Id": "7c0b8f9813bd444394c37e499fc4a8df"
+        },
+        {
+            "m_Id": "b2264dab6c7c4b4eadf3a09dcdb59ab9"
         }
     ],
     "m_GroupDatas": [
@@ -681,6 +687,20 @@
             "m_InputSlot": {
                 "m_Node": {
                     "m_Id": "483b49f3cfd642fb8a36dcf15d55c488"
+                },
+                "m_SlotId": 1
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "b2264dab6c7c4b4eadf3a09dcdb59ab9"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "b8038b3941e94ef982b7913dfc3c95a1"
                 },
                 "m_SlotId": 1
             }
@@ -2275,8 +2295,8 @@
     "m_ShaderOutputName": "Tiling",
     "m_StageCapability": 3,
     "m_Value": {
-        "x": 3.0,
-        "y": 3.0
+        "x": 1.0,
+        "y": 1.0
     },
     "m_DefaultValue": {
         "x": 1.0,
@@ -2429,6 +2449,21 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "588d309c25aa486ab7602c825b7c032a",
+    "m_Id": 0,
+    "m_DisplayName": "scale",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
 }
 
 {
@@ -2589,6 +2624,34 @@
     },
     "m_Property": {
         "m_Id": "328916c8ec5e494984d55c9cf4abb36f"
+    }
+}
+
+{
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
+    "m_ObjectId": "5ff2cdca45b341f8b52e08683ca24120",
+    "m_Guid": {
+        "m_GuidSerialized": "54b6e728-ca29-4488-a96a-13ebedab65e4"
+    },
+    "m_Name": "scale",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "scale",
+    "m_DefaultReferenceName": "_scale",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": 1.0,
+    "m_FloatType": 0,
+    "m_RangeValues": {
+        "x": 0.0,
+        "y": 1.0
     }
 }
 
@@ -3426,8 +3489,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -3931.999755859375,
-            "y": 3142.0,
+            "x": -3922.666259765625,
+            "y": 3095.333251953125,
             "width": 209.333251953125,
             "height": 280.0
         }
@@ -4346,6 +4409,42 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
+    "m_ObjectId": "b2264dab6c7c4b4eadf3a09dcdb59ab9",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Property",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -4939.3330078125,
+            "y": 2707.333251953125,
+            "width": 104.0,
+            "height": 36.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "588d309c25aa486ab7602c825b7c032a"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_Property": {
+        "m_Id": "5ff2cdca45b341f8b52e08683ca24120"
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "b2b4c3dd45474692bc653501d95c64b3",
     "m_Id": 0,
@@ -4447,10 +4546,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -4804.6669921875,
-            "y": 2694.66650390625,
+            "x": -4710.6669921875,
+            "y": 2668.0,
             "width": 156.00048828125,
-            "height": 144.000244140625
+            "height": 144.0
         }
     },
     "m_Slots": [
@@ -4562,8 +4661,8 @@
     "m_ObjectId": "bd5a5ac431bf44d0b0e10ea493f9c96f",
     "m_Title": "penstrokes",
     "m_Position": {
-        "x": -4830.00048828125,
-        "y": 2086.0
+        "x": -4828.666015625,
+        "y": 2085.999755859375
     }
 }
 
@@ -4979,6 +5078,9 @@
         },
         {
             "m_Id": "db332aaa686b4291b7eb969afa920622"
+        },
+        {
+            "m_Id": "5ff2cdca45b341f8b52e08683ca24120"
         }
     ]
 }
