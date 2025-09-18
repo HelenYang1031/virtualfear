@@ -118,11 +118,14 @@ Material:
     - _Surface: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
-    - _contrast: 3
-    - _line_density: 5
+    - _contrast: 1
+    - _glitch_strength: 0.05
+    - _line_density: 3
     - _line_speed: 2
-    - _noise_speed: 5
+    - _line_thickness: 0.0188
+    - _noise_speed: 7.01
     - _shine_speed: 0
+    - _video_proportion: 0.363
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
