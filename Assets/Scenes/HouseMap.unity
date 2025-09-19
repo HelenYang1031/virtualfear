@@ -4880,11 +4880,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8762286023885395322, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.01999999
       objectReference: {fileID: 0}
     - target: {fileID: 8762286023885395322, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.375
+      value: 1.3449999
       objectReference: {fileID: 0}
     - target: {fileID: 8762286023885395322, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5646,11 +5646,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9005220659476430818, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.01999999
       objectReference: {fileID: 0}
     - target: {fileID: 9005220659476430818, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.375
+      value: 1.3449999
       objectReference: {fileID: 0}
     - target: {fileID: 9005220659476430818, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5752,8 +5752,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c096a366748698345bba34cd439d9f88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerposition: {fileID: 0}
-  mirrorposition: {fileID: 0}
+  playerposition: {fileID: 1274495968}
+  mirrorposition: {fileID: 4033168745097956094}
 --- !u!114 &2012569776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5948,11 +5948,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.02
       objectReference: {fileID: 0}
     - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.03
       objectReference: {fileID: 0}
     - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13790,6 +13790,11 @@ PrefabInstance:
 --- !u!4 &4033168745097956093 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7251579638193732928, guid: 3395f9e99b31b994b95d785257517ba8, type: 3}
+  m_PrefabInstance: {fileID: 4033168745097956092}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4033168745097956094 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6073562493178254108, guid: 3395f9e99b31b994b95d785257517ba8, type: 3}
   m_PrefabInstance: {fileID: 4033168745097956092}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6937815244342990578

@@ -14,7 +14,8 @@ public class mirror : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 playerLocal = mirrorposition.InverseTransformDirection(playerposition.position);
-
+        Vector3 playerLocal = mirrorposition.InverseTransformDirection(playerposition.position); //global to local
+        Vector2 cameraLocal = new Vector3(playerLocal.x, playerLocal.y, - playerLocal.z); //map position
+        transform.position = mirrorposition.TransformPoint(cameraLocal); //local to global
     }
 }
