@@ -117,6 +117,8 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _DstBlendAlpha: 0
+    - _Edge_thickness: 0.1
+    - _Edge_threshold: 0.0001
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
     - _Glossiness: 0
@@ -137,6 +139,8 @@ Material:
     - _ZWrite: 1
     - _dotsize: 1
     - _linewidth: 0.1
+    - _pen_intensity: 0.8
+    - _pen_tile: 1
     - _scale: 10
     - _shade1: 0.344
     - _shade2: 0.432
@@ -146,5 +150,6 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _color_tile: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
