@@ -130,8 +130,8 @@ Material:
     - _ZWrite: 1
     - _diverse: 0
     - _edgewidth: 0.0032
-    - _thickness: 0.00141
-    - _threshold: 0.00069
+    - _thickness: 0.0043
+    - _threshold: 0.01
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
