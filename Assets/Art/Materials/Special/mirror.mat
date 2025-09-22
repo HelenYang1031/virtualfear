@@ -119,7 +119,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     - _distort_progress: 0
-    - _distort_radius: 0
+    - _distort_radius: 0.715
     - _speed: -1.2
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
