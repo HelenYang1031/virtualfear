@@ -114,8 +114,8 @@ Material:
     - _Surface: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
-    - _move_force: 9.9
-    - _move_speed: 0.29
+    - _move_force: 20
+    - _move_speed: 0.89
     - _wave_dense: 1.25
     - _wave_force: 10
     - _wave_offset: 0.6
