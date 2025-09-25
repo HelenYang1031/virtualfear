@@ -4,7 +4,7 @@ Shader "Unlit/outline"
     {
         _MainTex ("Texture", 2D) = "white" {}
         _Color ("Outline Color", Color) = (1,1,1,1)
-        _Width ("Outline Width", Range(0.0, 1.0)) = 0.1
+        _Width ("Outline Width", Range(0.0, 0.2)) = 0.1
     }
     SubShader
     {
@@ -67,7 +67,7 @@ Shader "Unlit/outline"
             }
             ENDCG
         }
-
+        //regular pass, not needed
         Pass
         {
             CGPROGRAM
