@@ -849,7 +849,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.AABox, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"center":{"x":0.0,"y":-2.0,"z":0.0},"size":{"x":7.0,"y":8.0,"z":7.0}}'
+      m_SerializableObject: '{"center":{"x":0.015093507245182991,"y":-2.0,"z":-0.40196335315704348},"size":{"x":7.0,"y":8.0,"z":7.0}}'
     m_Space: 0
   m_Property:
     name: bounds
@@ -1796,7 +1796,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.Transform, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"position":{"x":0.008194019086658955,"y":-1.4043974876403809,"z":0.1388423591852188},"angles":{"x":359.94537353515627,"y":10.205958366394043,"z":6.1494460105896},"scale":{"x":0.009999999776482582,"y":0.009999999776482582,"z":0.009999999776482582}}'
+      m_SerializableObject: '{"position":{"x":-0.11605911701917649,"y":-1.0769156217575074,"z":0.2478799968957901},"angles":{"x":359.94537353515627,"y":25.876943588256837,"z":6.1494460105896},"scale":{"x":0.01988358609378338,"y":0.01988358609378338,"z":0.01988358609378338}}'
     m_Space: 0
   m_Property:
     name: transform
@@ -2388,7 +2388,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0.01
+      m_SerializableObject: 0.02
     m_Space: -1
   m_Property:
     name: _Size
