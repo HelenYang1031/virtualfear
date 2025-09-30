@@ -2453,10 +2453,10 @@
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.GroupData",
     "m_ObjectId": "5ae6fa55c3fe489a89e51d3f698d4f4e",
-    "m_Title": "movw",
+    "m_Title": "move",
     "m_Position": {
-        "x": -3543.333740234375,
-        "y": 1875.333251953125
+        "x": -3543.3330078125,
+        "y": 1875.3333740234375
     }
 }
 
@@ -3271,7 +3271,7 @@
     "m_Title": "Wave",
     "m_Position": {
         "x": -3642.66650390625,
-        "y": 2503.99951171875
+        "y": 2504.0
     }
 }
 
@@ -4754,7 +4754,7 @@
     "m_Title": "Position change",
     "m_Position": {
         "x": -2106.666748046875,
-        "y": 1886.6666259765625
+        "y": 1886.66650390625
     }
 }
 

@@ -1796,7 +1796,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.Transform, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"position":{"x":-0.11605911701917649,"y":-1.0769156217575074,"z":0.2478799968957901},"angles":{"x":359.94537353515627,"y":25.876943588256837,"z":6.1494460105896},"scale":{"x":0.01988358609378338,"y":0.01988358609378338,"z":0.01988358609378338}}'
+      m_SerializableObject: '{"position":{"x":-0.11605911701917649,"y":-1.0769156217575074,"z":0.2478799968957901},"angles":{"x":359.94537353515627,"y":25.876943588256837,"z":6.1494460105896},"scale":{"x":0.01988358609378338,"y":0.01822708174586296,"z":0.01988358609378338}}'
     m_Space: 0
   m_Property:
     name: transform
@@ -2388,7 +2388,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0.02
+      m_SerializableObject: 0.01
     m_Space: -1
   m_Property:
     name: _Size
