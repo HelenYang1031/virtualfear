@@ -17047,6 +17047,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: MaluDeadFrame
       objectReference: {fileID: 0}
+    - target: {fileID: 8913792501793787660, guid: cb9fcdd2096397946a1724e022595a0d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.0032059003
+      objectReference: {fileID: 0}
+    - target: {fileID: 8913792501793787660, guid: cb9fcdd2096397946a1724e022595a0d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 8913792501793787660, guid: cb9fcdd2096397946a1724e022595a0d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.028
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
