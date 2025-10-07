@@ -20,6 +20,8 @@ public class MaluGen : MonoBehaviour
     public float speed;
 
     public bool move = false;
+    public bool generate = false;
+    private bool exist = true;
     private List<GameObject> spawnedInstances = new List<GameObject>();
 
 
@@ -47,6 +49,7 @@ public class MaluGen : MonoBehaviour
 
                 GameObject instance = Instantiate(entry.prefab);
                 instance.name = $"{entry.prefab.name}_{k}_{i}";
+                instance.transform.SetParent(transform);
                 spawnedInstances.Add(instance);
 
                 //Malu Shader
@@ -71,7 +74,23 @@ public class MaluGen : MonoBehaviour
     }
     void Update()
     {
-        if (Application.isPlaying && move)
+        
+        /*
+        if (generate)
+        {
+            AddToSpline();
+            foreach (var obj in spawnedInstances)
+            {
+                if (obj == null) continue;
+
+                Destroy(obj);
+            }
+            exist = true;
+            generate = false; //reset after triggering
+        }
+        */
+
+        if (Application.isPlaying && move && exist)
         {
             foreach (var obj in spawnedInstances)
             {
@@ -86,5 +105,6 @@ public class MaluGen : MonoBehaviour
 
             move = false; // reset after triggering
         }
+
     }
 }
