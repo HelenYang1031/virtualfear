@@ -304,7 +304,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: dd4718af5c9d58a4594eb3ea4a1ea1b0, type: 2}
+  - {fileID: 2100000, guid: 3f13fc923dc06ff46ac7383fa7706c23, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -485,7 +485,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e4b83501ff8a6f841bd735cb7d7bee59, type: 2}
+  - {fileID: 2100000, guid: 3f13fc923dc06ff46ac7383fa7706c23, type: 2}
   - {fileID: 2100000, guid: cd436c1d2ddbd3642af8d26dc8e8f2ce, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -547,7 +547,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1330206955
 MonoBehaviour:
   m_ObjectHideFlags: 0

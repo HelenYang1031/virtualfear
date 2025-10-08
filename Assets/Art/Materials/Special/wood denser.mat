@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: wood
+  m_Name: wood denser
   m_Shader: {fileID: -6465566751694194690, guid: ca87aa6aea555e543b540ef31ca85d4b, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -126,7 +126,7 @@ Material:
     - _intensity: 1.04
     - _progress: 0.513
     - _scale: 21.7
-    - _tile: 60
+    - _tile: 83
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
