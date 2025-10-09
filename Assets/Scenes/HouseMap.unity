@@ -3505,6 +3505,7 @@ GameObject:
   - component: {fileID: 475451965}
   - component: {fileID: 475451964}
   - component: {fileID: 475451963}
+  - component: {fileID: 475451966}
   m_Layer: 0
   m_Name: Point Light
   m_TagString: Untagged
@@ -3615,6 +3616,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1268488668}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &475451966
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475451962}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a7b0d1cd089a79e4585a7e84fb951f99, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &497224560 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2058612598386459732, guid: 996a7ada4f9f19d4d9c18fdd6a15c39b, type: 3}
@@ -3639,8 +3662,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 119.531105, y: 99.68225, z: 59.671036}
-  m_Center: {x: -0.000026153572, y: 10.222814, z: -0.000006538393}
+  m_Size: {x: 119.531105, y: 176.63943, z: 59.671036}
+  m_Center: {x: -0.000026153572, y: 48.701435, z: -0.000006538393}
 --- !u!1 &508141146
 GameObject:
   m_ObjectHideFlags: 0
